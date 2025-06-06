@@ -27,7 +27,7 @@ if st.button('생성하기'):
         )
         response = client.images.generate(
             model="dall-e-3",
-            prompt=f"{keyword}, 웹툰풍으로 그려줘",
+            prompt=f"{keyword}, 지브리풍으로 그려줘",
             size="1024x1024",
             quality="standard",
             n=1,
